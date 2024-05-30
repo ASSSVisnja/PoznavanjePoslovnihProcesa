@@ -1,0 +1,47 @@
+object ObrisiZaposlenog: TObrisiZaposlenog
+  Left = 0
+  Top = 0
+  Caption = 'Form28'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object editID: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 128.000000000000000000
+    Position.Y = 112.000000000000000000
+    Size.Width = 396.000000000000000000
+    Size.Height = 46.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    Position.X = 232.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 185.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Obrisi Zaposlenog'
+    OnClick = Button1Click
+  end
+  object Button3: TButton
+    Size.Width = 33.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = '<-'
+    OnClick = Button3Click
+  end
+  object Label1: TLabel
+    Position.X = 48.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Unesite ID'
+    TabOrder = 11
+  end
+end

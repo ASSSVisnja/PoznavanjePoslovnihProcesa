@@ -1,0 +1,61 @@
+object Form36: TForm36
+  Left = 0
+  Top = 0
+  Caption = 'Form36'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Button1: TButton
+    Position.X = 504.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 89.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Nazad'
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Position.X = 208.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Dodaj Proizvod'
+    OnClick = Button2Click
+  end
+  object Label1: TLabel
+    Position.X = 26.000000000000000000
+    Position.Y = 40.000000000000000000
+    Text = 'Proizvodi'
+    TabOrder = 5
+  end
+  object Label2: TLabel
+    Position.X = 26.000000000000000000
+    Position.Y = 120.000000000000000000
+    Text = 'Cena'
+    TabOrder = 4
+  end
+  object Proizvodi: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 88.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Cena: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 88.000000000000000000
+    Position.Y = 104.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
